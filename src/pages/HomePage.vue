@@ -53,7 +53,7 @@ import CTA from '../components/CTA.vue'
 .image-back {
     display: flex;
     align-items: center;
-    background-image: url('../../public/sports-tools.webp');
+    background-image: url('/sports-tools.webp');
     min-height: 600px;
     background-position: center;
     background-size: cover;

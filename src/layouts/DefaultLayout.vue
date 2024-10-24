@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-primary_blue text-white">
+    <div class="bg-primary_blue text-white min-h-[100vh]">
         <Header/>
         <slot/>
         <Footer/>
@@ -10,3 +10,6 @@
 import Header from '../components/Header.vue'
 import Footer from '../components/Footer.vue'
 </script>
+
+<style>
+</style>

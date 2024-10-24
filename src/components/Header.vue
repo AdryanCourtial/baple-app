@@ -8,7 +8,7 @@
             </li>
             <li>
                 <div class="button_header"> 
-                    <RouterLink to=""> Tarifs </RouterLink>
+                    <RouterLink to="/tarifs"> Tarifs </RouterLink>
                 </div>
             </li>
             <li>
@@ -18,12 +18,12 @@
             </li>
             <li>
                 <div class="button_header">
-                    <RouterLink to=""> Contactez-nous ! </RouterLink>
+                    <RouterLink to=""> S'inscrire </RouterLink>
                 </div>
             </li>
             <li>
                 <div class="button_header">
-                    <RouterLink to=""> Téléchargement </RouterLink>
+                    <RouterLink to=""><CTA first_text="Télégargement" hover_text="Start !"> </CTA></RouterLink>
                 </div>
             </li>
         </ul>
@@ -31,11 +31,16 @@
 </template>
 
 <script setup lang="ts">
+import CTA from './CTA.vue';
 </script>
 
 <style scoped lang="css">
 .button_header {
     width: 100%;
-    text-align: center
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 </style>
