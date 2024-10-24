@@ -28,7 +28,7 @@
                     <li>- <strong class="color-change">Pas de Limite</strong> de likes </li>
                     <li>- <strong class="color-change">Pas de Limite</strong> de joueurs par équipes </li>
                 </ul>
-                <p class="w-full text-center price"> 9,90€/mois </p>
+                <p class="w-full text-center price"> 18,90€/mois </p>
                 <button class="button_pack"><CTA :first_text="'Découvrir'" :hover_text="'C\'est parti !'"></CTA></button>
             </div>
         </div>
@@ -57,7 +57,6 @@ import CTA from '../components/CTA.vue';
     min-height: 500px;
     min-width: 350px;
     height: auto;
-    background-color: aqua;
     border-radius: 10px;
     display: flex;
     flex-direction: column;

@@ -3,7 +3,7 @@
         <ul class="flex justify-around items-center [&>li]:w-full min-h-[75px]">
             <li>
                 <div class="button_header">
-                    <RouterLink to=""> à Propos </RouterLink>
+                    <RouterLink to="/register"> S'inscrire </RouterLink>
                 </div>
             </li>
             <li>
@@ -18,7 +18,7 @@
             </li>
             <li>
                 <div class="button_header">
-                    <RouterLink to=""> S'inscrire </RouterLink>
+                    <RouterLink to="/contact"> Nous Contacter </RouterLink>
                 </div>
             </li>
             <li>
