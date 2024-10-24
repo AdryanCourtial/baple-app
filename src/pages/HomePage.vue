@@ -3,12 +3,12 @@
         <div class="py-12">
             <div class="image-back p-10">
                 <div>
-                    <h1 class="text-[36px] font-bold content w-[50%]"> Trouvez des matchs amicaux en <span class="text-primary_orange"> <br> un clin d'œil</span> avec Baple </h1>
+                    <h1 class="text-[36px] font-bold content w-[50%]"> Trouvez des matchs amicaux en <span class="text-primary_orange"> <br> un clin d'œil</span> avec Matchup </h1>
                     <p class="content w-[30%] mt-4">Vous cherchez à organiser un match amical ? Baple est là pour faciliter la rencontre entre équipes sportives, quels que soient le sport et le niveau. En quelques clics, trouvez vos futurs adversaires et planifiez vos rencontres.</p>
                 </div>
             </div>
             <div class="container">
-                <h2 class="text-[28px] font-bold text-media"> <span class="text-primary_orange">Pourquoi</span> choisir Baple ? </h2>
+                <h2 class="text-[28px] font-bold text-media"> <span class="text-primary_orange">Pourquoi</span> choisir Matchup ? </h2>
                 <div class="container-faq">
                     <div class="faq">
                         <h3>Un système de matchmaking sportif :</h3>
