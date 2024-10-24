@@ -89,4 +89,10 @@ import CTA from '../components/CTA.vue';
     flex: 1;
 }
 
+@media only screen and (max-width: 750px){
+    .container {
+        flex-direction: column;
+    }
+}
+
 </style>

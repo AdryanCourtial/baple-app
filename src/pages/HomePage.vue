@@ -8,7 +8,7 @@
                 </div>
             </div>
             <div class="container">
-                <h2 class="text-[28px] font-bold"> <span class="text-primary_orange">Pourquoi</span> choisir Baple ? </h2>
+                <h2 class="text-[28px] font-bold text-media"> <span class="text-primary_orange">Pourquoi</span> choisir Baple ? </h2>
                 <div class="container-faq">
                     <div class="faq">
                         <h3>Un système de matchmaking sportif :</h3>
@@ -109,5 +109,24 @@ import CTA from '../components/CTA.vue'
     font-size: 16px;
 }
 
+@media only screen and (max-width: 750px) {
+
+
+
+    .content {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .faq {
+        max-width: 90%;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+        margin: auto;
+    }
+
+
+}
 
 </style>
