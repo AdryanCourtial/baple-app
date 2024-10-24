@@ -1,6 +1,6 @@
 <template>
     <div>
-        <ul class="flex justify-around items-center [&>li]:w-full min-h-[75px]">
+        <ul class="list_button">
             <li>
                 <div class="button_header">
                     <RouterLink to="/register"> S'inscrire </RouterLink>
@@ -43,4 +43,23 @@ import CTA from './CTA.vue';
     font-weight: 600;
     text-transform: uppercase;
 }
+
+.list_button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list_button li {
+    width: 100%;
+    min-width: 75px;
+}
+
+@media only screen and (max-width: 750px){
+    .list_button {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
 </style>

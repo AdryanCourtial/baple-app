@@ -126,7 +126,6 @@ import CTA from '../components/CTA.vue'
         margin: auto;
     }
 
-
 }
 
 </style>
